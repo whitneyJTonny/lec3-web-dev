@@ -1,0 +1,48 @@
+Section A
+
+##List all the primitive data types in JavaScript and give a brief explanation of each.
+
+Number → Represents numerical values (e.g., 42, 3.14).
+String → Represents text (e.g., "Hello").
+Boolean → Represents true or false.
+Null → Represents an intentional absence of value.
+Undefined → Represents an unassigned variable.
+BigInt → Represents large integers beyond the Number limit.
+Symbol → Represents unique identifiers.
+ 
+##What is the difference between null and undefined in JavaScript?
+
+null is an assigned value representing "nothing".
+undefined means a variable has been declared but not assigned  to a value.
+
+##Explain the difference between primitive and reference data types in JavaScript.
+
+Primitive types store values directly (e.g., Number, String).
+Reference types store memory references (e.g., Objects, Arrays).
+
+##What is the typeof operator used for? Provide two examples.
+
+Used to check the data type of a variable.
+Example:
+console.log(typeof 42); // "number"
+console.log(typeof "Hello"); // "string"
+
+##Explain type coercion in JavaScript. Provide an example of implicit type coercion.
+
+Type coercion is JavaScript's automatic conversion of values between types.
+Example:
+console.log("5" + 5); // Output: "55" (number converted to string)
+
+##What is the difference between == and === in JavaScript?
+
+== compares values and allows type conversion.
+=== compares both values and data types.
+
+##Define and differentiate between mutable and immutable data types in JavaScript, providing one example for each.
+
+Mutable (can be changed): Objects, Arrays. Example:
+let arr = [1, 2, 3];  
+arr[0] = 10; // Mutates the array  
+Immutable (cannot be changed): Strings, Numbers. Example:
+let str = "Hello";  
+str[0] = "Y"; // No effect, strings are immutable  
